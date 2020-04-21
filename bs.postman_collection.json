@@ -1,0 +1,41 @@
+{
+	"info": {
+		"_postman_id": "46ce011d-4017-4bad-9593-7042f528af8b",
+		"name": "bs",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "demo- request network logs",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Basic ZWR1YXJkb3NhbGlhbnMxOjJzeUFYc1Q2ZnFjcGphamlyWnhx",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://api.browserstack.com/app-automate/builds/3c16fef99509abd31ab6fd4bc0f8e76557b6a417/sessions/a26a4c8ab7395ee54bfbdb551f991c58774f13ce/networklogs",
+					"protocol": "https",
+					"host": [
+						"api",
+						"browserstack",
+						"com"
+					],
+					"path": [
+						"app-automate",
+						"builds",
+						"3c16fef99509abd31ab6fd4bc0f8e76557b6a417",
+						"sessions",
+						"a26a4c8ab7395ee54bfbdb551f991c58774f13ce",
+						"networklogs"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
